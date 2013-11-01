@@ -1,0 +1,53 @@
+{
+    "start" : {
+        "title"     : "Index page",
+        "or"        : "or",
+        "search"    : "Search",
+        "h2"        : "Custom i18n message!",
+        "notes"     : "Go to Notes!"
+    },
+
+    "course" : {
+        "title"     : "Information about curse",
+        "head"		: "Select a course",
+        "name"      : "Title",
+        "dataStart" : "Date of start",
+        "dataEnd"   : "Date of the end",
+        "hours"     : "Hours",
+        "type"      : "Type",
+        "who"       : "Who",
+        "doc"       : "Documentation",
+        "list"      : "List",
+        "caption"   : "List of students which visit courses",
+        "courseList": "List of courses",
+        "nameCourse": "Name of course",
+        "year"		: "School year"
+    },
+
+    "class" : {
+        "title"     : "Choose the class",
+        "info"      : "Information about classes of student",
+        "serial"	: "Serial"
+    },
+
+    "student" : {
+        "title"     : "Choose a student",
+        "name"      : "Name",
+        "lastname"  : "Lastname",
+        "bd"        : "Birthday",
+        "titleC"    : "Title",
+        "year"      : "Year"
+
+    },
+    "anno" : {
+
+        "title"		: "Choose a year"
+
+    },
+    
+    
+    "error" : {
+    	"title404"	: "Error 404! Page not found.",
+    	"title500"	: "Errore 500!"
+    }
+}

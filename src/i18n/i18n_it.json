@@ -1,0 +1,51 @@
+{
+    "start" : {
+        "title"     : "Titolo!!",
+        "or"        : "oppure",
+        "search"    : "Cerca",
+        "h2"        : "Messaggio multilingua!",
+        "notes"     : "Accedi alle note"
+    },
+
+    "course" : {
+        "title"     : "Informazioni inerenti ai corsi",
+        "head"		: "Seleziona il corso",
+        "name"      : "Titolo",
+        "dataStart" : "Data dell'inizio",
+        "dataEnd"   : "Data della fine",
+        "hours"     : "Monte ore",
+        "type"      : "Tipo",
+        "who"       : "Dirigente",
+        "doc"       : "Documentazione",
+        "list"      : "La lista",
+        "caption"   : "La lista degli studenti che frequentano corsi e il tipo del corso.",
+        "courseList": "Lista dei corsi",
+        "nameCourse": "Nome del corso",
+        "year"		: "Anno scolastico"
+    },
+
+    "class" : {
+        "title"     : "Scelta della classe",
+        "info"      : "Information about classes of student",
+        "serial"	: "Matricola"
+    },
+
+    "student" : {
+        "title"     : "Scelta dello studente",
+        "name"      : "Nome",
+        "lastname"  : "Cognome",
+        "bd"        : "Data di nascita",
+        "titleC"    : "Titolo",
+        "year"      : "Anno scolastico"
+    },
+    "anno" : {
+        "title"		: "Seleziona l'anno"
+    },
+    
+    
+    "error" : {
+    	"title404"	: "Errore 404! Pagina non trovato.",
+    	"title500"	: "Errore 500!"
+    }
+    
+}

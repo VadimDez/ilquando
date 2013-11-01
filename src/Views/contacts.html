@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>ilQuando - scopri il futuro!</title>
+
+    {% include 'include.html' %}
+</head>
+<body>
+<div class="container">
+    <div class="span10">
+        <div class="header pull-right">
+            <a href="{{ burl }}"><img src="{{ burl }}/ilquando.png"/></a>
+            <br/>
+            <br/>
+        </div>
+    </div>
+
+    <div class="offset1">
+        <form class="well span8" method="post">
+            <div class="row">
+                <div class="span8">
+                    <legend>Contatta</legend>
+                </div>
+                <div class="span3">
+                    <label>Nome</label>
+                    <input type="text" class="span3" name="name" placeholder="Nome...">
+                    <label>Cognome</label>
+                    <input type="text" class="span3" name="lastname" placeholder="Cognome...">
+                    <label>Email</label>
+                    <input type="email" class="span3" name="email" placeholder="Email...">
+                </div>
+                <div class="span5">
+                    <label>Messaggio</label>
+                    <textarea name="message" id="message" class="input-xlarge span5" rows="10"></textarea>
+                </div>
+
+                <button type="submit" class="btn pull-right">Contatta</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="row-fluid">
+        {% include 'footer.html' %}
+    </div>
+</div>
+
+</body>
+</html>
